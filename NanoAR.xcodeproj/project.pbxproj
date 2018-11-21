@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94503EE621A5CFBB00CB0170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94503EE521A5CFBB00CB0170 /* AppDelegate.swift */; };
+		94503EE821A5CFBB00CB0170 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 94503EE721A5CFBB00CB0170 /* art.scnassets */; };
+		94503EEA21A5CFBB00CB0170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94503EE921A5CFBB00CB0170 /* ViewController.swift */; };
+		94503EED21A5CFBB00CB0170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94503EEB21A5CFBB00CB0170 /* Main.storyboard */; };
+		94503EEF21A5CFBD00CB0170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94503EEE21A5CFBD00CB0170 /* Assets.xcassets */; };
+		94503EF221A5CFBD00CB0170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94503EF021A5CFBD00CB0170 /* LaunchScreen.storyboard */; };
+		94503EFD21A5CFBD00CB0170 /* NanoARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94503EFC21A5CFBD00CB0170 /* NanoARTests.swift */; };
+		94503F0821A5CFBD00CB0170 /* NanoARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94503F0721A5CFBD00CB0170 /* NanoARUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94503EF921A5CFBD00CB0170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94503EDA21A5CFBB00CB0170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94503EE121A5CFBB00CB0170;
+			remoteInfo = NanoAR;
+		};
+		94503F0421A5CFBD00CB0170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94503EDA21A5CFBB00CB0170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94503EE121A5CFBB00CB0170;
+			remoteInfo = NanoAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94503EE221A5CFBB00CB0170 /* NanoAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94503EE521A5CFBB00CB0170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94503EE721A5CFBB00CB0170 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		94503EE921A5CFBB00CB0170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94503EEC21A5CFBB00CB0170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94503EEE21A5CFBD00CB0170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94503EF121A5CFBD00CB0170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94503EF321A5CFBD00CB0170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94503EF821A5CFBD00CB0170 /* NanoARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94503EFC21A5CFBD00CB0170 /* NanoARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoARTests.swift; sourceTree = "<group>"; };
+		94503EFE21A5CFBD00CB0170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94503F0321A5CFBD00CB0170 /* NanoARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94503F0721A5CFBD00CB0170 /* NanoARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoARUITests.swift; sourceTree = "<group>"; };
+		94503F0921A5CFBD00CB0170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94503EDF21A5CFBB00CB0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94503EF521A5CFBD00CB0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94503F0021A5CFBD00CB0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94503ED921A5CFBB00CB0170 = {
+			isa = PBXGroup;
+			children = (
+				94503EE421A5CFBB00CB0170 /* NanoAR */,
+				94503EFB21A5CFBD00CB0170 /* NanoARTests */,
+				94503F0621A5CFBD00CB0170 /* NanoARUITests */,
+				94503EE321A5CFBB00CB0170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94503EE321A5CFBB00CB0170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94503EE221A5CFBB00CB0170 /* NanoAR.app */,
+				94503EF821A5CFBD00CB0170 /* NanoARTests.xctest */,
+				94503F0321A5CFBD00CB0170 /* NanoARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94503EE421A5CFBB00CB0170 /* NanoAR */ = {
+			isa = PBXGroup;
+			children = (
+				94503EE521A5CFBB00CB0170 /* AppDelegate.swift */,
+				94503EE721A5CFBB00CB0170 /* art.scnassets */,
+				94503EE921A5CFBB00CB0170 /* ViewController.swift */,
+				94503EEB21A5CFBB00CB0170 /* Main.storyboard */,
+				94503EEE21A5CFBD00CB0170 /* Assets.xcassets */,
+				94503EF021A5CFBD00CB0170 /* LaunchScreen.storyboard */,
+				94503EF321A5CFBD00CB0170 /* Info.plist */,
+			);
+			path = NanoAR;
+			sourceTree = "<group>";
+		};
+		94503EFB21A5CFBD00CB0170 /* NanoARTests */ = {
+			isa = PBXGroup;
+			children = (
+				94503EFC21A5CFBD00CB0170 /* NanoARTests.swift */,
+				94503EFE21A5CFBD00CB0170 /* Info.plist */,
+			);
+			path = NanoARTests;
+			sourceTree = "<group>";
+		};
+		94503F0621A5CFBD00CB0170 /* NanoARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94503F0721A5CFBD00CB0170 /* NanoARUITests.swift */,
+				94503F0921A5CFBD00CB0170 /* Info.plist */,
+			);
+			path = NanoARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94503EE121A5CFBB00CB0170 /* NanoAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94503F0C21A5CFBD00CB0170 /* Build configuration list for PBXNativeTarget "NanoAR" */;
+			buildPhases = (
+				94503EDE21A5CFBB00CB0170 /* Sources */,
+				94503EDF21A5CFBB00CB0170 /* Frameworks */,
+				94503EE021A5CFBB00CB0170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoAR;
+			productName = NanoAR;
+			productReference = 94503EE221A5CFBB00CB0170 /* NanoAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94503EF721A5CFBD00CB0170 /* NanoARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94503F0F21A5CFBD00CB0170 /* Build configuration list for PBXNativeTarget "NanoARTests" */;
+			buildPhases = (
+				94503EF421A5CFBD00CB0170 /* Sources */,
+				94503EF521A5CFBD00CB0170 /* Frameworks */,
+				94503EF621A5CFBD00CB0170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94503EFA21A5CFBD00CB0170 /* PBXTargetDependency */,
+			);
+			name = NanoARTests;
+			productName = NanoARTests;
+			productReference = 94503EF821A5CFBD00CB0170 /* NanoARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94503F0221A5CFBD00CB0170 /* NanoARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94503F1221A5CFBD00CB0170 /* Build configuration list for PBXNativeTarget "NanoARUITests" */;
+			buildPhases = (
+				94503EFF21A5CFBD00CB0170 /* Sources */,
+				94503F0021A5CFBD00CB0170 /* Frameworks */,
+				94503F0121A5CFBD00CB0170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94503F0521A5CFBD00CB0170 /* PBXTargetDependency */,
+			);
+			name = NanoARUITests;
+			productName = NanoARUITests;
+			productReference = 94503F0321A5CFBD00CB0170 /* NanoARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94503EDA21A5CFBB00CB0170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gabriel Sousa";
+				TargetAttributes = {
+					94503EE121A5CFBB00CB0170 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					94503EF721A5CFBD00CB0170 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 94503EE121A5CFBB00CB0170;
+					};
+					94503F0221A5CFBD00CB0170 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 94503EE121A5CFBB00CB0170;
+					};
+				};
+			};
+			buildConfigurationList = 94503EDD21A5CFBB00CB0170 /* Build configuration list for PBXProject "NanoAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94503ED921A5CFBB00CB0170;
+			productRefGroup = 94503EE321A5CFBB00CB0170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94503EE121A5CFBB00CB0170 /* NanoAR */,
+				94503EF721A5CFBD00CB0170 /* NanoARTests */,
+				94503F0221A5CFBD00CB0170 /* NanoARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94503EE021A5CFBB00CB0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94503EE821A5CFBB00CB0170 /* art.scnassets in Resources */,
+				94503EF221A5CFBD00CB0170 /* LaunchScreen.storyboard in Resources */,
+				94503EEF21A5CFBD00CB0170 /* Assets.xcassets in Resources */,
+				94503EED21A5CFBB00CB0170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94503EF621A5CFBD00CB0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94503F0121A5CFBD00CB0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94503EDE21A5CFBB00CB0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94503EEA21A5CFBB00CB0170 /* ViewController.swift in Sources */,
+				94503EE621A5CFBB00CB0170 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94503EF421A5CFBD00CB0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94503EFD21A5CFBD00CB0170 /* NanoARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94503EFF21A5CFBD00CB0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94503F0821A5CFBD00CB0170 /* NanoARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94503EFA21A5CFBD00CB0170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94503EE121A5CFBB00CB0170 /* NanoAR */;
+			targetProxy = 94503EF921A5CFBD00CB0170 /* PBXContainerItemProxy */;
+		};
+		94503F0521A5CFBD00CB0170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94503EE121A5CFBB00CB0170 /* NanoAR */;
+			targetProxy = 94503F0421A5CFBD00CB0170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94503EEB21A5CFBB00CB0170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94503EEC21A5CFBB00CB0170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94503EF021A5CFBD00CB0170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94503EF121A5CFBD00CB0170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94503F0A21A5CFBD00CB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94503F0B21A5CFBD00CB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94503F0D21A5CFBD00CB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = NanoAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NanoAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94503F0E21A5CFBD00CB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = NanoAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NanoAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94503F1021A5CFBD00CB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = NanoARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NanoARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoAR.app/NanoAR";
+			};
+			name = Debug;
+		};
+		94503F1121A5CFBD00CB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = NanoARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NanoARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoAR.app/NanoAR";
+			};
+			name = Release;
+		};
+		94503F1321A5CFBD00CB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = NanoARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NanoARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoAR;
+			};
+			name = Debug;
+		};
+		94503F1421A5CFBD00CB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = NanoARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NanoARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NanoAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94503EDD21A5CFBB00CB0170 /* Build configuration list for PBXProject "NanoAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94503F0A21A5CFBD00CB0170 /* Debug */,
+				94503F0B21A5CFBD00CB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94503F0C21A5CFBD00CB0170 /* Build configuration list for PBXNativeTarget "NanoAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94503F0D21A5CFBD00CB0170 /* Debug */,
+				94503F0E21A5CFBD00CB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94503F0F21A5CFBD00CB0170 /* Build configuration list for PBXNativeTarget "NanoARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94503F1021A5CFBD00CB0170 /* Debug */,
+				94503F1121A5CFBD00CB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94503F1221A5CFBD00CB0170 /* Build configuration list for PBXNativeTarget "NanoARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94503F1321A5CFBD00CB0170 /* Debug */,
+				94503F1421A5CFBD00CB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94503EDA21A5CFBB00CB0170 /* Project object */;
+}
